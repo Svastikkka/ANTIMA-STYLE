@@ -1,0 +1,5 @@
+
+/*
+ * APPLYING STYLES ARRANGEMENTS  IN TEXT OR FONTS
+ */
+.aa-text-left {text-align: left; }.aa-text-right {text-align: right; }.aa-text-center {text-align: center; }.aa-text-justify {text-align: justify; }.aa-text-nowrap {white-space: nowrap; }.aa-text-lowercase {text-transform: lowercase; }.aa-text-uppercase {text-transform: uppercase; }.aa-text-capitalize {text-transform: capitalize; }.aa-font-thin {font-weight: 200 !important; }.aa-font-light {font-weight: 300 !important; }.aa-font-regular {font-weight: 400 !important; }.aa-font-medium {font-weight: 500 !important; }.aa-font-bold {font-weight: 700 !important; }.aa-font-black {font-weight: 900 !important; }
