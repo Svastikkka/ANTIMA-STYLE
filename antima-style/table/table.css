@@ -1,0 +1,24 @@
+/*ADDING STYLE EFFECTS  IN THE TABLE */
+.aa-table,.aa-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}
+.aa-table-all{border:1px solid #ccc}
+.aa-bordered tr,.aa-table-all tr{border-bottom:1px solid #ddd}
+.aa-stripe tbody tr:nth-child(even){background-color:#f1f1f1}
+.aa-table-all tr:nth-child(odd){background-color:#fff}
+.aa-table-all tr:nth-child(even){background-color:#f1f1f1}
+.aa-hoverable tbody tr:hover,.aa-ul.aa-hoverable li:hover{background-color:#ccc}
+.aa-centered tr th,.aa-centered tr td{text-align:center}
+.aa-table td,.aa-table th,.aa-table-all td,.aa-table-all th{padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
+.aa-table th:first-child,.aa-table td:first-child,.aa-table-all th:first-child,.aa-table-all td:first-child{padding-left:16px}
+@media (max-width: 768.98px) {
+    .aa-responsive--table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 0;
+        margin:0px;padding:0px;
+
+    }
+
+}

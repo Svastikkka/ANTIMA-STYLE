@@ -1,0 +1,121 @@
+
+/*creating spinners only three spinners i created */
+/* spinners1*/
+
+.aa-circle {
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 10px solid rgba(255, 255, 255, 0.2);
+    border-top-color: #000;
+    animation: spin 1s infinite linear;
+}
+
+
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+/* spinners2*/
+.aa-box, .aa-boxinner {
+    -webkit-box-sizing:border-box;
+    border: 4px solid #000;
+    text-align: left;
+}
+
+.aa-box {
+    width: 80px;
+    height: 80px;
+    -webkit-animation: spin 3s infinite linear;
+}
+
+
+
+.aa-boxinner {
+    width: 60px;
+    height: 60px;
+    margin: 6px auto;
+    -webkit-animation: pulse 1.5s infinite linear;
+    -webkit-animation-timing-function: ease;
+}
+
+
+@-webkit-keyframes pulse {
+    50% {
+        border-width: 30px;
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+
+
+/* spinners3*/
+
+
+.aa-loader-container {
+    background: green;
+    height: 30%;
+    margin: 5% auto;
+    width: 50%;
+    border-radius: 15px;
+    position: relative;
+}
+
+.aa-loader1 {
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+#aa-loader2 span {
+    display: block;
+    height: 50px;
+    width: 10px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: expand 1s ease-in-out infinite;
+}
+
+#aa-loader2 span:first-child {
+    left: 41%;
+    animation-delay: .5s;
+}
+
+#aa-loader2 span:last-child {
+    left: 59%;
+    animation-delay: .8s;
+}
+
+@keyframes expand {
+    0%, 100% {
+        height: 50px;
+    }
+    20% {
+        height: 65px;
+    }
+    50% {
+        height: 55px;
+    }
+    75% {
+        height: 40px;
+    }
+}

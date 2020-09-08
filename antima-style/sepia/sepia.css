@@ -1,0 +1,4 @@
+/*gives a specia effect*/
+.aa-sepia{filter:sepia(75%)}
+.aa-sepia-max,.aa-hover-sepia:hover{filter:sepia(100%)}
+.aa-sepia-min{filter:sepia(50%)}

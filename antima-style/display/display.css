@@ -1,0 +1,25 @@
+/*DISPAY PROPERTIES */
+.aa-hide{display:none!important;}
+.aa-invisible{visibility:invisible;}
+.aa-show--block,.aa-show{display:block!important;}
+.aa-show-inline-block{display:inline-block!important;}
+.aa-visible{visibility:visible;}
+
+
+
+
+/*The display classes allow you to display HTML elements in specific positions inside other HTML elements:*/
+.aa-display-container{position:relative}
+.aa-display-topleft{position:absolute;left:0;top:0}
+.aa-display-topright{position:absolute;right:0;top:0}
+.aa-display-bottomleft{position:absolute;left:0;bottom:0}
+.aa-display-bottomright{position:absolute;right:0;bottom:0}
+.aa-display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.aa-display-topmiddle{position:absolute;left:50%;top:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.aa-display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.aa-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.aa-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+.aa-display-container:hover .aa-display-hover{display:block}
+.aa-display-container:hover span.aa-display-hover{display:inline-block}
+.aa-display-hover{display:none}
+.aa-display-position{position:absolute}

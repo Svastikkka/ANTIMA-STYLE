@@ -1,0 +1,50 @@
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {resize: vertical; }
+h1, h2, h3, h4, h5, h6, p {margin: 0; padding: 0; }
+
+
+/*
+ * Styles for HTML elements
+ */
+h1 {font-family: "Roboto", "Helvetica", "Arial", sans-serif;font-size: 56px;font-weight: 400;line-height: 1.35;letter-spacing: -0.02em;margin-top: 24px;margin-bottom: 24px; }
+h2 {font-family: "Roboto", "Helvetica", "Arial", sans-serif;font-size: 45px;font-weight: 400;line-height: 48px;margin-top: 24px;margin-bottom: 24px; }
+h3 {font-family: "Roboto", "Helvetica", "Arial", sans-serif;font-size: 34px;font-weight: 400;line-height: 40px;margin-top: 24px;margin-bottom: 24px; }
+h4 {font-family: "Roboto", "Helvetica", "Arial", sans-serif;font-size: 24px;font-weight: 400;line-height: 32px;margin-top: 24px;margin-bottom: 16px; }
+h5 {font-family: "Roboto", "Helvetica", "Arial", sans-serif;font-size: 20px;font-weight: 500;line-height: 1;letter-spacing: 0.02em;margin-top: 24px;margin-bottom: 16px; }
+h6 {font-family: "Roboto", "Helvetica", "Arial", sans-serif;font-size: 16px;font-weight: 400;line-height: 24px;letter-spacing: 0.04em;margin-top: 24px;margin-bottom: 16px; }
+p {font-size: 14px;font-weight: 400;line-height: 24px;letter-spacing: 0;margin-bottom: 16px; }
+a {color: rgb(255,64,129);font-weight: 500; background-color:transparent;-webkit-text-decoration-skip:objects ;}
+
+
+
+
+
+
+/*Center text*/
+.aa-center--text{text-align:center}
+
+
+
+
+
+
+
+/*
+ * APPLYING STYLES ARRANGEMENTS  IN TEXT OR FONTS
+ */
+.aa-text-left {text-align: left; }
+.aa-text-right {text-align: right; }
+.aa-text-center {text-align: center; }
+.aa-text-justify {text-align: justify; }
+.aa-text-nowrap {white-space: nowrap; }
+.aa-text-lowercase {text-transform: lowercase; }
+.aa-text-uppercase {text-transform: uppercase; }
+.aa-text-capitalize {text-transform: capitalize; }
+.aa-font-thin {font-weight: 200 !important; }
+.aa-font-light {font-weight: 300 !important; }
+.aa-font-regular {font-weight: 400 !important; }
+.aa-font-medium {font-weight: 500 !important; }
+.aa-font-bold {font-weight: 700 !important; }
+.aa-font-black {font-weight: 900 !important; }

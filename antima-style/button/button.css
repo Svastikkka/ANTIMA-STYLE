@@ -1,0 +1,18 @@
+/*
+ * APPLYING STYLE ARRANGEMENTS  IN BUTTON NOT COMPLETELY DONE IN THE THE THE WHILE
+ */
+.aa-button{border:none;display:inline-block;padding:16px 24px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;font-size:15px; border-radius:2px;}
+.aa-button:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+.aa-button--fullwidth{width:100%}
+
+
+/*Disabled buttons are opaque (semi-transparent) and display a "no parking sign"*/
+.aa-button--disable:disabled{cursor:not-allowed;opacity:0.3 ;pointer-events:none}
+.aa-button--disable:hover{box-shadow:none}
+
+
+/*
+ * APPLYING STYLE ARRANGEMENTS  IN CIRCULAR BUTTON
+ */
+.aa-button--circular {border-radius: 50%;font-size: 24px;height: 56px;margin: auto;min-width: 56px;width: 56px;padding: 0;overflow: hidden;background: rgba(158,158,158, 0.20);box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.24);position: relative;line-height: normal; border:0px; }
+.aa-button--circular:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}

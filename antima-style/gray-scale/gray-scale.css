@@ -1,0 +1,5 @@
+
+/*HANDLE THE GRAY SCALE EFFECT*/
+.aa-grayscale{filter:grayscale(75%)}
+.aa-grayscale-min{filter:grayscale(50%)}
+.aa-greyscale-max,.aa-grayscale-max,.aa-hover-greyscale:hover,.aa-hover-grayscale:hover{filter:grayscale(100%)}
