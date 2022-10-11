@@ -1,203 +1,259 @@
-/*
-*Created by Manshu Sharma
-*license Apache-2.0
-*copyright 2018 Svatikk.com
-*version v1.0.0
-*link https://github.com/Svatikk/Antima-Style
-*/
-
-
-
-
-
-
-
-
-/*
- * A better looking default horizontal rule
- */
-hr {display: block;height: 1px;border: 0;border-top: 1px solid #ccc;margin: 1em 0;padding: 0; }
-
-dt {font-weight: 700; }
-ul, ol {font-size: 14px; font-weight: 400; line-height: 24px; letter-spacing: 0; list-style-type:none;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* *Created by Manshu Sharma *license Apache-2.0 *copyright 2018 Svatikk.com *version v1.0.0 *link https://github.com/Svatikk/Antima-Style */
+/* * A better looking default horizontal rule */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+dt {
+    font-weight: 700;
+}
+ ul, ol {
+    font-size: 14px;
+     font-weight: 400;
+     line-height: 24px;
+     letter-spacing: 0;
+     list-style-type:none;
+}
 /*USED IN THE INPUT TAG */
 /* form starting stylings ------------------------------- */
-.aa-input--group 			  {
-    position:relative;
-    margin-bottom:45px;
+.aa-input--group {
+     position:relative;
+     margin-bottom:45px;
 }
-.aa-input 				{
-    font-size:18px;
-    padding:10px 10px 10px 5px;
-    display:block;
-    width:300px;
-    border:none;
-    border-bottom:1px solid #757575;
+.aa-input {
+     font-size:18px;
+     padding:10px 10px 10px 5px;
+     display:block;
+     width:300px;
+     border:none;
+     border-bottom:1px solid #757575;
 }
-.aa-input:focus 		{ outline:none; }
+.aa-input:focus {
+     outline:none;
+}
 /* LABEL ======================================= */
-.aa-input--label 				 {
-    color:#999;
-    font-size:18px;
-    font-weight:normal;
-    position:absolute;
-    pointer-events:none;
-    left:5px;
-    top:10px;
-    transition:0.2s ease all;
-    -moz-transition:0.2s ease all;
-    -webkit-transition:0.2s ease all;
+.aa-input--label {
+     color:#999;
+     font-size:18px;
+     font-weight:normal;
+     position:absolute;
+     pointer-events:none;
+     left:5px;
+     top:10px;
+     transition:0.2s ease all;
+     -moz-transition:0.2s ease all;
+     -webkit-transition:0.2s ease all;
 }
 /* active state */
-.aa-input:focus ~ .aa-input--label, .aa-input:valid ~ .aa-input--label 		{
-    top:-20px;
-    font-size:14px;
-    color:#5264AE;
+.aa-input:focus ~ .aa-input--label, .aa-input:valid ~ .aa-input--label {
+     top:-20px;
+     font-size:14px;
+     color:#5264AE;
 }
-
-
-
-
 /* active state */
-.aa-input:focus ~ .aa-input--bar:before, .aa-input:focus ~ .aa-input--bar:after {
-    width:50%;
+ .aa-input:focus ~ .aa-input--bar:before, .aa-input:focus ~ .aa-input--bar:after {
+     width:50%;
 }
-
-
 /* HIGHLIGHTER ================================== */
-.aa-input--highlight {
-    position:absolute;
-    height:60%;
-    width:100px;
-    top:25%;
-    left:0;
-    pointer-events:none;
-    opacity:0.5;
+ .aa-input--highlight {
+     position:absolute;
+     height:60%;
+     width:100px;
+     top:25%;
+     left:0;
+     pointer-events:none;
+     opacity:0.5;
 }
-
-
-
-
 /* active state */
-.aa-input:focus ~ .aa-input--highlight {
-    -webkit-animation:inputHighlighter 0.3s ease;
-    -moz-animation:inputHighlighter 0.3s ease;
-    animation:inputHighlighter 0.3s ease;
+ .aa-input:focus ~ .aa-input--highlight {
+     -webkit-animation:inputHighlighter 0.3s ease;
+     -moz-animation:inputHighlighter 0.3s ease;
+     animation:inputHighlighter 0.3s ease;
 }
 /*LIST DISPLAY*/
-.aa-ul li{padding:8px 16px;border-bottom:1px solid #ddd}.aa-ul li:last-child{border-bottom:none}.aa-ol li{padding:8px 16px;border-bottom:1px solid #ddd}.aa-ol li:last-child{border-bottom:none}
+ .aa-ul li{
+    padding:8px 16px;
+    border-bottom:1px solid #ddd
+}
+.aa-ul li:last-child{
+    border-bottom:none
+}
+.aa-ol li{
+    padding:8px 16px;
+    border-bottom:1px solid #ddd
+}
+.aa-ol li:last-child{
+    border-bottom:none
+}
 /*The adding margin to any HTML element:*/
-.aa-margin{margin:16px!important}.aa-margin-top{margin-top:16px!important}.aa-margin-bottom{margin-bottom:16px!important}.aa-margin-left{margin-left:16px!important}.aa-margin-right{margin-right:16px!important}
-/*
- *FOR APPLYING OPACITY  EFFECTS IN THE ELEMENTS
- */
-.aa-opacity-max{opacity:0.25}.aa-opacity-min{opacity:0.75}.aa-opacity-off,.aa-hover-opacity-off:hover{opacity:1}.aa-opacity,.aa-hover-opacity:hover{opacity:0.60}
+ .aa-margin{
+    margin:16px!important
+}
+.aa-margin-top{
+    margin-top:16px!important
+}
+.aa-margin-bottom{
+    margin-bottom:16px!important
+}
+.aa-margin-left{
+    margin-left:16px!important
+}
+.aa-margin-right{
+    margin-right:16px!important
+}
+/* *FOR APPLYING OPACITY EFFECTS IN THE ELEMENTS */
+ .aa-opacity-max{
+    opacity:0.25
+}
+.aa-opacity-min{
+    opacity:0.75
+}
+.aa-opacity-off,.aa-hover-opacity-off:hover{
+    opacity:1
+}
+.aa-opacity,.aa-hover-opacity:hover{
+    opacity:0.60
+}
 /*The aa-padding-number classes add top and bottom padding to any HTML element:*/
-.aa-padding-16{padding-top:16px!important;padding-bottom:16px!important}.aa-padding-24{padding-top:24px!important;padding-bottom:24px!important}.aa-padding-32{padding-top:32px!important;padding-bottom:32px!important}.aa-padding-48{padding-top:48px!important;padding-bottom:48px!important}.aa-padding-64{padding-top:64px!important;padding-bottom:64px!important}
-/*The aa-padding-size classes add top, bottom, right, and left padding to any HTML element:*/.aa-padding-x{padding:4px 8px!important}.aa-padding-xx{padding:8px 16px!important}.aa-padding-xxx{padding:12px 24px!important}.aa-padding-xxxx{padding:24px 48px!important}
-/*
- *APPLYING PANNEL EFFECT
- */
-.aa-panel{margin-top:16px;margin-bottom:16px;padding:0.01em 16px; background:red;}
-
-/*aa-progress-bar  Applying progress bar*/
-.aa-progress {
-    vertical-align: baseline;
+ .aa-padding-16{
+    padding-top:16px!important;
+    padding-bottom:16px!important
 }
-.aa-progress {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 1rem;
-    overflow: hidden;
-    font-size: 0.75rem;
-    background-color: #e9ecef;
-    border-radius: 0.25rem;
+.aa-padding-24{
+    padding-top:24px!important;
+    padding-bottom:24px!important
 }
-.aa-progress--bar {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    color: #fff;
-    text-align: center;
-    background-color: #007bff;
-    transition: width 0.6s ease;
-    text-align:center;
+.aa-padding-32{
+    padding-top:32px!important;
+    padding-bottom:32px!important
 }
-.aa-progress-bar-striped {
-    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-    background-size: 1rem 1rem;
+.aa-padding-48{
+    padding-top:48px!important;
+    padding-bottom:48px!important
 }
-.aa-progress-bar-animated {
-    -webkit-animation: progress-bar-stripes 1s linear infinite;
-    animation: progress-bar-stripes 1s linear infinite;
+.aa-padding-64{
+    padding-top:64px!important;
+    padding-bottom:64px!important
 }
-@-webkit-keyframes progress-bar-stripes {
-    from {
-        background-position: 1rem 0;
+/*The aa-padding-size classes add top, bottom, right, and left padding to any HTML element:*/
+.aa-padding-x{
+    padding:4px 8px!important
+}
+.aa-padding-xx{
+    padding:8px 16px!important
+}
+.aa-padding-xxx{
+    padding:12px 24px!important
+}
+.aa-padding-xxxx{
+    padding:24px 48px!important
+}
+/* *APPLYING PANNEL EFFECT */
+ .aa-panel{
+    margin-top:16px;
+    margin-bottom:16px;
+    padding:0.01em 16px;
+     background:red;
+}
+/*aa-progress-bar Applying progress bar*/
+ .aa-progress {
+     vertical-align: baseline;
+}
+ .aa-progress {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     height: 1rem;
+     overflow: hidden;
+     font-size: 0.75rem;
+     background-color: #e9ecef;
+     border-radius: 0.25rem;
+}
+ .aa-progress--bar {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     color: #fff;
+     text-align: center;
+     background-color: #007bff;
+     transition: width 0.6s ease;
+     text-align:center;
+}
+ .aa-progress-bar-striped {
+     background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+     background-size: 1rem 1rem;
+}
+ .aa-progress-bar-animated {
+     -webkit-animation: progress-bar-stripes 1s linear infinite;
+     animation: progress-bar-stripes 1s linear infinite;
+}
+ @-webkit-keyframes progress-bar-stripes {
+     from {
+         background-position: 1rem 0;
     }
-    to {
-        background-position: 0 0;
+     to {
+         background-position: 0 0;
     }
 }
-@keyframes progress-bar-stripes {
-    from {
-        background-position: 1rem 0;
+ @keyframes progress-bar-stripes {
+     from {
+         background-position: 1rem 0;
     }
-    to {
-        background-position: 0 0;
+     to {
+         background-position: 0 0;
     }
 }
-.aa-sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    -webkit-clip-path: inset(50%);
-    clip-path: inset(50%);
-    border: 0;
+ .aa-sr-only {
+     position: absolute;
+     width: 1px;
+     height: 1px;
+     padding: 0;
+     overflow: hidden;
+     clip: rect(0, 0, 0, 0);
+     white-space: nowrap;
+     -webkit-clip-path: inset(50%);
+     clip-path: inset(50%);
+     border: 0;
 }
-.aa-sr-only-focusable:active, .aa-sr-only-focusable:focus {
-    position: static;
-    width: auto;
-    height: auto;
-    overflow: visible;
-    clip: auto;
-    white-space: normal;
-    -webkit-clip-path: none;
-    clip-path: none;
+ .aa-sr-only-focusable:active, .aa-sr-only-focusable:focus {
+     position: static;
+     width: auto;
+     height: auto;
+     overflow: visible;
+     clip: auto;
+     white-space: normal;
+     -webkit-clip-path: none;
+     clip-path: none;
 }
-
-
-
-
-
-
-/*
- *APPLYING ROUND EFFECTS IN THE COMTAINER AND PANEL EFFECT
- */
-.aa-round-slarge{border-radius:2px}.aa-round-mlarge{border-radius:4px}.aa-round-xlarge{border-radius:8px}.aa-round-xxlarge{border-radius:16px}.aa-round-xxxlarge{border-radius:32px}.aa-round-xxxxlarge{border-radius:50%}/*GIVES A CIRLCE */
+/* *APPLYING ROUND EFFECTS IN THE COMTAINER AND PANEL EFFECT */
+ .aa-round-slarge{
+    border-radius:2px
+}
+.aa-round-mlarge{
+    border-radius:4px
+}
+.aa-round-xlarge{
+    border-radius:8px
+}
+.aa-round-xxlarge{
+    border-radius:16px
+}
+.aa-round-xxxlarge{
+    border-radius:32px
+}
+.aa-round-xxxxlarge{
+    border-radius:50%
+}
+/*GIVES A CIRLCE */
+ 
