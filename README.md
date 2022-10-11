@@ -28,10 +28,10 @@ Powerful front-end library for faster and easier web development.
 - To use Antima-Style.CSS, just add a link  "Antima-Style.css" in your web-pages(.html):
 
 ## Creators
-- [Svastikkka]{https://github.com/Svastikkka}
+- [Svastikkka](https://github.com/Svastikkka)
 
 ## Example
-- [Example]{https://svastikkka.github.io/ANTIMA-STYLE/}
+- [Example](https://svastikkka.github.io/ANTIMA-STYLE/)
 
 ## Copyright and license
 - Code and documentation copyright 2018 the Antima-Style Authors Code released under the [Apache License](https://github.com/Manshu-Sharma/Antima-Style/blob/master/LICENSE).
