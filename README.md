@@ -17,6 +17,7 @@ Powerful front-end library for faster and easier web development.
 - [Quick start](#quick-introduction)
 - [How to use](#how-to-use)
 - [Creators](#creators)
+- [Tutorial](#Tutorial)
 - [Copyright and license](#copyright-and-license)
 
 
@@ -30,8 +31,8 @@ Powerful front-end library for faster and easier web development.
 ## Creators
 - [Svastikkka](https://github.com/Svastikkka)
 
-## Example
-- [Example](https://svastikkka.github.io/ANTIMA-STYLE/)
+## Tutorial
+- [Tutorial](https://svastikkka.github.io/ANTIMA-STYLE/)
 
 ## Copyright and license
 - Code and documentation copyright 2018 the Antima-Style Authors Code released under the [Apache License](https://github.com/Manshu-Sharma/Antima-Style/blob/master/LICENSE).
