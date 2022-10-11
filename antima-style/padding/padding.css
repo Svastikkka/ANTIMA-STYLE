@@ -1,0 +1,13 @@
+/*The aa-padding-size classes add top, bottom, right, and left padding to any HTML element:*/
+.aa-padding-x{
+    padding:4px 8px!important
+}
+.aa-padding-xx{
+    padding:8px 16px!important
+}
+.aa-padding-xxx{
+    padding:12px 24px!important
+}
+.aa-padding-xxxx{
+    padding:24px 48px!important
+}

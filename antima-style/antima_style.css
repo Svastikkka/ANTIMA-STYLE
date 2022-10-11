@@ -139,26 +139,6 @@ dt {
     padding-top:64px!important;
     padding-bottom:64px!important
 }
-/*The aa-padding-size classes add top, bottom, right, and left padding to any HTML element:*/
-.aa-padding-x{
-    padding:4px 8px!important
-}
-.aa-padding-xx{
-    padding:8px 16px!important
-}
-.aa-padding-xxx{
-    padding:12px 24px!important
-}
-.aa-padding-xxxx{
-    padding:24px 48px!important
-}
-/* *APPLYING PANNEL EFFECT */
- .aa-panel{
-    margin-top:16px;
-    margin-bottom:16px;
-    padding:0.01em 16px;
-     background:red;
-}
 /*aa-progress-bar Applying progress bar*/
  .aa-progress {
      vertical-align: baseline;
