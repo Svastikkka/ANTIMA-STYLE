@@ -1,17 +1,9 @@
 /* *Created by Manshu Sharma *license Apache-2.0 *copyright 2018 Svatikk.com *version v1.0.0 *link https://github.com/Svatikk/Antima-Style */
-/* * A better looking default horizontal rule */
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
+
 dt {
     font-weight: 700;
 }
- ul, ol {
+ul, ol {
     font-size: 14px;
      font-weight: 400;
      line-height: 24px;
@@ -89,22 +81,7 @@ dt {
 .aa-ol li:last-child{
     border-bottom:none
 }
-/*The adding margin to any HTML element:*/
- .aa-margin{
-    margin:16px!important
-}
-.aa-margin-top{
-    margin-top:16px!important
-}
-.aa-margin-bottom{
-    margin-bottom:16px!important
-}
-.aa-margin-left{
-    margin-left:16px!important
-}
-.aa-margin-right{
-    margin-right:16px!important
-}
+
 /* *FOR APPLYING OPACITY EFFECTS IN THE ELEMENTS */
  .aa-opacity-max{
     opacity:0.25
@@ -118,27 +95,7 @@ dt {
 .aa-opacity,.aa-hover-opacity:hover{
     opacity:0.60
 }
-/*The aa-padding-number classes add top and bottom padding to any HTML element:*/
- .aa-padding-16{
-    padding-top:16px!important;
-    padding-bottom:16px!important
-}
-.aa-padding-24{
-    padding-top:24px!important;
-    padding-bottom:24px!important
-}
-.aa-padding-32{
-    padding-top:32px!important;
-    padding-bottom:32px!important
-}
-.aa-padding-48{
-    padding-top:48px!important;
-    padding-bottom:48px!important
-}
-.aa-padding-64{
-    padding-top:64px!important;
-    padding-bottom:64px!important
-}
+
 /*aa-progress-bar Applying progress bar*/
  .aa-progress {
      vertical-align: baseline;
@@ -215,25 +172,4 @@ dt {
      white-space: normal;
      -webkit-clip-path: none;
      clip-path: none;
-}
-/* *APPLYING ROUND EFFECTS IN THE COMTAINER AND PANEL EFFECT */
- .aa-round-slarge{
-    border-radius:2px
-}
-.aa-round-mlarge{
-    border-radius:4px
-}
-.aa-round-xlarge{
-    border-radius:8px
-}
-.aa-round-xxlarge{
-    border-radius:16px
-}
-.aa-round-xxxlarge{
-    border-radius:32px
-}
-.aa-round-xxxxlarge{
-    border-radius:50%
-}
-/*GIVES A CIRLCE */
- 
+} 

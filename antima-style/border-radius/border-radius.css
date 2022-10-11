@@ -1,0 +1,19 @@
+/* *APPLYING ROUND EFFECTS IN THE COMTAINER AND PANEL EFFECT */
+.aa-round-slarge{
+    border-radius:2px
+}
+.aa-round-mlarge{
+    border-radius:4px
+}
+.aa-round-xlarge{
+    border-radius:8px
+}
+.aa-round-xxlarge{
+    border-radius:16px
+}
+.aa-round-xxxlarge{
+    border-radius:32px
+}
+.aa-round-xxxxlarge{
+    border-radius:50%
+}

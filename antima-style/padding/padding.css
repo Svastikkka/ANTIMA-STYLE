@@ -11,3 +11,24 @@
 .aa-padding-xxxx{
     padding:24px 48px!important
 }
+/*The aa-padding-number classes add top and bottom padding to any HTML element:*/
+.aa-padding-16{
+    padding-top:16px!important;
+    padding-bottom:16px!important
+}
+.aa-padding-24{
+    padding-top:24px!important;
+    padding-bottom:24px!important
+}
+.aa-padding-32{
+    padding-top:32px!important;
+    padding-bottom:32px!important
+}
+.aa-padding-48{
+    padding-top:48px!important;
+    padding-bottom:48px!important
+}
+.aa-padding-64{
+    padding-top:64px!important;
+    padding-bottom:64px!important
+}
